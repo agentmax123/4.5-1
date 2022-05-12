@@ -2,7 +2,7 @@
   "name": "RAVANA BOT",
   "version": "4.5.0",
   "description": "RAVANA project - Makes it easy and fun to use Whatsapp",
-  "main": "./4.5/bot.js",
+  "main": "./4.5-1/bot.js",
   "scripts": {
     "start": "supervisor -s bot.js"
   },
