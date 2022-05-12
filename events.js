@@ -1,10 +1,8 @@
-//https://github.com/RAVANA-SL/slRavana
-
 // Komutları burada tutacağız.
 var config = require('./config');
 var Commands = [];
 
-function addCommand(info, func) {
+function addrex(info, func) {
     // Basit bir fonksiyon, komut eklemek için.
     var types = ['photo', 'image', 'text', 'message'];
 
@@ -39,6 +37,6 @@ function addCommand(info, func) {
 }
 
 module.exports = {
-    addCommand: addCommand,
+    addrex: addrex,
     commands: Commands
 }
