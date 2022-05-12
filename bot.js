@@ -473,7 +473,7 @@ ${chalk.blue.italic('Bot Connecting your whatsapp....')}`);
                 }
             }
         )
-    });
+    };
  // ════════════════════ERRROR MESSAGER
     try {
         await conn.connect();
